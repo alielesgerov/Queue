@@ -203,7 +203,7 @@ int main()
 	Worker w1("name1","surname1",20,10);
 	Worker w2("name2","surname2",20,10);
 	Worker w3("name3","surname3",20,10);
-	Queue* queue = new Queue(5);
+	Queue* queue = new Queue(3);
 	queue->enqueue(w1);
 	queue->enqueue(w2);
 	queue->enqueue(w3);
